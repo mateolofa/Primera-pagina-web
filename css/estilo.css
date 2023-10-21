@@ -123,6 +123,14 @@ nav{
     width: 19rem;
     border: black solid 2px;
 }
+/* Trabaja con nosotros */
+.trabajaConNosotros{
+    display: flex;
+}
+.estanteriaQueso{
+    width: 100%;
+    object-fit: cover;
+}
 /* Contactos */
 
 .cajaFormulario {
@@ -146,14 +154,14 @@ nav{
 
 .etiquetaFormulario input:focus {
     color: black;
-    background-color: #FFC300;
+    background-color: #CFCF24;
 }
 textarea{
     width: 100%;
 }
 textarea:focus{
     color: black;
-    background-color: #FFC300;
+    background-color: #CFCF24;
 }
 
 .botones {
@@ -164,7 +172,7 @@ textarea:focus{
     padding: 0.4rem;
     height: 3rem;
     color: black;
-    background-color: #FFC300;
+    background-color: #CFCF24;
     border: black solid 1px;
     border-radius: 50px;
     font-size: 1.2rem;
@@ -173,8 +181,8 @@ textarea:focus{
 
 .botonesA:hover {
     background-color: black;
-    border: #FFC300 solid 1px;
-    color: #FFC300;
+    border: #CFCF24 solid 1px;
+    color: #CFCF24;
 }
 
 .botonesB {
@@ -183,7 +191,7 @@ textarea:focus{
     margin-left: 2.5rem;
     padding: 0.4rem;
     color: black;
-    background-color: #FFC300;
+    background-color: #CFCF24;
     border: black solid 1px;
     ;
     border-radius: 50px;
@@ -193,8 +201,8 @@ textarea:focus{
 
 .botonesB:hover {
     background-color: black;
-    border: #FFC300 solid 1px;
-    color: #FFC300;
+    border: #CFCF24 solid 1px;
+    color: #CFCF24;
 }
 
 
@@ -205,10 +213,10 @@ textarea:focus{
 /* footer de la pagina */
 footer {
     font-size: 0.8rem;
-    color: whitesmoke;
+    color: black;
     font-variant: small-caps;
     display: flex;
-    background-color: #989179;
+    background-color: #BBBBB3;
     border: black 1px solid;
     margin: 0px;
     padding: 0px;
@@ -221,7 +229,7 @@ footer {
 
 .pie li a {
     text-decoration: none;
-    color: whitesmoke;
+    color: black;
     padding-left: 0px;
     padding-right: 0px;
     margin: 3px;
