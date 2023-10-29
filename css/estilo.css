@@ -98,7 +98,8 @@ nav{
 
 }
 .imagenCarrusel{
-
+    height: 60vh;
+    object-fit:fill;
 
 }
 /* productos */
