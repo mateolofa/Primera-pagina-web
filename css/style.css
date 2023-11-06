@@ -1,0 +1,271 @@
+@media (min-width: 450px) and (max-width: 1000px) {
+  footer {
+    flex-direction: column;
+  }
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #2D2D29;
+  color: #fafafa;
+  margin-top: 5.5rem;
+}
+
+li {
+  list-style-type: none;
+}
+
+.imagenLogo {
+  width: 100%;
+  height: 6rem;
+}
+
+.cuerpo {
+  font-size: 1.6rem;
+  color: #fafafa;
+  text-decoration: none;
+}
+
+nav {
+  background-color: #C2C207;
+  font-variant: small-caps;
+  position: fixed;
+  top: 0px;
+  z-index: 8;
+}
+nav .navegadorH {
+  font-size: 1rem;
+  font-weight: bold;
+}
+nav .navegadorH li:hover {
+  background-color: white;
+  color: black;
+}
+
+.whatsappLogo {
+  position: fixed;
+  right: 2px;
+  bottom: 5px;
+  height: 5rem;
+  width: 5rem;
+  z-index: 4;
+}
+
+footer {
+  font-size: 0.8rem;
+  color: black;
+  font-variant: small-caps;
+  display: flex;
+  background-color: #BBBBB3;
+  border: black 1px solid;
+  margin: 0px;
+  padding: 0px;
+  justify-content: space-evenly;
+  width: 100vw;
+}
+footer .pie li {
+  list-style-type: none;
+}
+footer .pie li a {
+  text-decoration: none;
+  color: black;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin: 3px;
+}
+footer .pie li a:hover {
+  background-color: white;
+  color: black;
+}
+footer .medioPagos {
+  display: flex;
+}
+footer .medioPagos li {
+  display: block;
+  margin: 3px;
+}
+footer .redesSociales {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+footer .redesSociales li {
+  list-style-type: none;
+  display: inline;
+  padding: 1rem;
+}
+footer .redesSociales li .redes {
+  height: 2rem;
+  width: 2rem;
+  background-color: #fff;
+  border-radius: 50px;
+}
+
+.autor {
+  font-size: 0.7rem;
+  margin: 7px;
+}
+
+.paginaPrincipal {
+  position: relative;
+  background-image: url(../imagenes/Fabrica\ quesos\ 1.jpg);
+  background-size: cover;
+  height: 30rem;
+  width: 100%;
+  background-repeat: no-repeat;
+  z-index: 2;
+}
+.paginaPrincipal .conoceProductos {
+  text-decoration: none;
+  text-align: center;
+  color: #fafafa;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 3.8rem;
+  width: 18rem;
+  border-radius: 30px;
+  z-index: 4;
+}
+.paginaPrincipal .conoceProductos::before {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 5rem;
+  width: 18rem;
+  position: absolute;
+  border: white solid 3px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  border-radius: 30px;
+  z-index: -1;
+}
+
+.lema {
+  display: block;
+  text-align: justify;
+  font-size: 3rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #fafafa;
+}
+
+.lemaDos {
+  font-size: 1.5rem;
+}
+
+.imagenCarrusel {
+  height: 60vh;
+  object-fit: fill;
+}
+
+.contactoCaja {
+  display: flex;
+  justify-content: space-around;
+}
+.contactoCaja .cajaFormulario {
+  background-color: #989179;
+}
+.contactoCaja .cajaFormulario .formulario {
+  padding: 1.5rem;
+  width: 100%;
+}
+.contactoCaja .cajaFormulario .formulario .etiquetaFormulario {
+  display: block;
+}
+.contactoCaja .cajaFormulario .formulario input {
+  width: 100%;
+  height: 2rem;
+}
+.contactoCaja .cajaFormulario .formulario input:focus {
+  color: black;
+  background-color: #CFCF24;
+}
+.contactoCaja .cajaFormulario .formulario textarea {
+  width: 100%;
+}
+.contactoCaja .cajaFormulario .formulario textarea:focus {
+  color: black;
+  background-color: #CFCF24;
+}
+.contactoCaja .cajaFormulario .formulario .botones {
+  display: flex;
+}
+.contactoCaja .cajaFormulario .formulario .botonesA {
+  padding: 0.4rem;
+  height: 3rem;
+  color: black;
+  background-color: #CFCF24;
+  border: black solid 1px;
+  border-radius: 50px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.contactoCaja .cajaFormulario .formulario .botonesA:hover {
+  background-color: black;
+  border: #CFCF24 solid 1px;
+  color: #CFCF24;
+}
+.contactoCaja .cajaFormulario .formulario .botonesB {
+  height: 3rem;
+  margin-right: 2rem;
+  margin-left: 2.5rem;
+  padding: 0.4rem;
+  color: black;
+  background-color: #CFCF24;
+  border: black solid 1px;
+  border-radius: 50px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.contactoCaja .cajaFormulario .formulario .botonesB:hover {
+  background-color: black;
+  border: #CFCF24 solid 1px;
+  color: #CFCF24;
+}
+.contactoCaja .cajaFormulario .mapa iframe {
+  height: 30rem;
+  width: 100%;
+}
+
+.conoceMas {
+  background-color: #FFC300;
+  border-radius: 60px;
+  padding: 0.4rem;
+  border: white 1px solid;
+  text-decoration: none;
+  color: #fff;
+}
+.conoceMas:hover {
+  background-color: white;
+  border: #FFC300 1px solid;
+  color: #FFC300;
+}
+
+/* imagen producto */
+.imagenProducto {
+  height: 19rem;
+  width: 19rem;
+  border: black solid 2px;
+}
+
+.trabajaConNosotros {
+  display: flex;
+}
+.trabajaConNosotros .redes {
+  height: 2rem;
+  width: 2rem;
+  background-color: #fff;
+  border-radius: 50px;
+}
+
+.estanteriaQueso {
+  width: 100%;
+  object-fit: cover;
+}
+
+/*# sourceMappingURL=style.css.map */

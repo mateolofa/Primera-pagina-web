@@ -1,0 +1,23 @@
+.conoceMas {
+    background-color: #FFC300;
+    border-radius: 60px;
+    padding: 0.4rem;
+    border: white 1px solid;
+    text-decoration: none;
+    color: #fff;
+  
+    &:hover {
+      background-color: white;
+      border: #FFC300 1px solid;
+      color: #FFC300;
+    }
+  }
+  
+  /* imagen producto */
+  
+  .imagenProducto {
+    height: 19rem;
+    width: 19rem;
+    border: black solid 2px;
+  }
+  

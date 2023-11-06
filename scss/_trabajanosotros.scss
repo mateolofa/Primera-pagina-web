@@ -1,0 +1,11 @@
+.trabajaConNosotros {
+  display: flex;
+  .redes{
+    @include logoredes
+  }
+}
+
+.estanteriaQueso {
+  width: 100%;
+  object-fit: cover;
+}

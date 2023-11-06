@@ -1,0 +1,58 @@
+  footer {
+      font-size: 0.8rem;
+      color: black;
+      font-variant: small-caps;
+      display: flex;
+      background-color: #BBBBB3;
+      border: black 1px solid;
+      margin: 0px;
+      padding: 0px;
+      justify-content: space-evenly;
+      width: 100vw;
+
+      .pie li {
+          list-style-type: none;
+
+          a {
+              text-decoration: none;
+              color: black;
+              padding-left: 0px;
+              padding-right: 0px;
+              margin: 3px;
+
+              &:hover {
+                  background-color: white;
+                  color: black;
+              }
+          }
+      }
+
+      .medioPagos {
+          display: flex;
+
+          li {
+              display: block;
+              margin: 3px;
+          }
+      }
+
+      .redesSociales {
+          display: flex;
+          align-items: center;
+          justify-content: start;
+
+          li {
+              list-style-type: none;
+              display: inline;
+              padding: 1rem;
+
+              .redes {
+                @include logoredes
+              }
+          }
+      }
+  }
+  .autor {
+      font-size: 0.7rem;
+      margin: 7px;
+  }
