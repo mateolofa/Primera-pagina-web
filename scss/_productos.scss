@@ -1,23 +1,36 @@
 .conoceMas {
     background-color: #FFC300;
     border-radius: 60px;
-    padding: 0.4rem;
+    padding: 0.6rem;
     border: white 1px solid;
     text-decoration: none;
     color: #fff;
+    transition: 0.3s;
   
     &:hover {
       background-color: white;
       border: #FFC300 1px solid;
       color: #FFC300;
+      transition: 0.3s;
     }
   }
-  
+  .tarjetaProducto p{
+    font-size: 1.5rem;
+    padding: 0.6rem;
+    margin-top: 1rem;
+  }
   /* imagen producto */
   
   .imagenProducto {
     height: 19rem;
     width: 19rem;
     border: black solid 2px;
+    padding: 0;
+    transition: 0.4s;
+    &:hover{
+      scale: 1.1;
+      transition: all 0.3s ;
+      
+    }
   }
   

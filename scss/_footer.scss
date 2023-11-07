@@ -12,6 +12,7 @@
 
       .pie li {
           list-style-type: none;
+          padding: 0.3rem;
 
           a {
               text-decoration: none;
@@ -19,10 +20,12 @@
               padding-left: 0px;
               padding-right: 0px;
               margin: 3px;
+              transition: 0.3s;
 
               &:hover {
                   background-color: white;
                   color: black;
+                  transition: 0.3s;
               }
           }
       }
