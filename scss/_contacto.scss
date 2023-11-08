@@ -45,11 +45,14 @@
                   border-radius: 50px;
                   font-size: 1.2rem;
                   cursor: pointer;
+                  transition:all 1s;
 
                   &:hover {
                       background-color: black;
                       border: #CFCF24 solid 1px;
                       color: #CFCF24;
+                      transform: translate(4px, 8px);
+                    transition: 0.7s;
                   }
               }
 
@@ -64,11 +67,14 @@
                   border-radius: 50px;
                   font-size: 1.2rem;
                   cursor: pointer;
+                  transition: all 1s;
 
                   &:hover {
                       background-color: black;
                       border: #CFCF24 solid 1px;
                       color: #CFCF24;
+                      transform: translate(5px, 6px);
+                      transition: 0.7s;
                   }
               }
           }
