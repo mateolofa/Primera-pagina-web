@@ -31,11 +31,11 @@ li {
 }
 
 nav {
-  background-color: #C2C207;
   font-variant: small-caps;
   position: fixed;
   top: 0px;
   z-index: 8;
+  background: linear-gradient(to bottom, #C2C207, #2D2D29);
 }
 nav .navegadorH {
   font-size: 1rem;

@@ -25,11 +25,11 @@ body {
     text-decoration: none;
   }
 nav {
-      background-color: #C2C207;
       font-variant: small-caps;
       position: fixed;
       top: 0px;
       z-index: 8;
+      background: linear-gradient(to bottom,#C2C207,#2D2D29) ;
       .navegadorH {
         font-size: 1rem;
         font-weight: bold;
